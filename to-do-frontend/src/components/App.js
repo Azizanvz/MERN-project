@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'; 
-import TodosList from './components/TodosList';
-import EditTodo from './components/EditTodo';
-import CreateTodo from './components/CreateTodo';
+import TodosList from './TodosList';
+import EditTodo from './EditTodo';
+import CreateTodo from './CreateTodo';
 
 class App extends Component {
     render() {
